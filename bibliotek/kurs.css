@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: #0B0D17;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.logo{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    color: #FFFFFF;
+}
+ nav{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.logo > p{
+    font-size: 12px;
+    font-weight: 400;
+}
+ nav > a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+ nav > button{
+    width: 70px;
+    height: 30px;
+    border-radius:15px ;
+    background-color: #23252E;
+    color: #FFFFFF;
+    border: 1px solid #31333D;
+}
+main{
+    width: 100%;
+    height: 70vh;
+    background-image: url(img/Rectangle\ 2\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 91px;
+}
+.hh{
+    font-size: 38px;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.hh > button{
+    width: 86px;
+    padding: 4px 4px;
+    background-color: #EF3833;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+    border-radius: 4px;
+}
+.ss{
+    font-size: 30px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.text-p{
+    display: flex;
+    gap: 59px;
+}
+.text-p > div > p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+    display: flex;
+    gap: 10px;
+}
+.text-p > div > p > i{
+    font-size: 18px;
+    color: #60CDF6;
+    
+}
+.sec-5{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #F5F5F5;
+}
+.h3{
+    font-size: 38px;
+    font-weight: 700;
+    color: #242935;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.vi_kurs{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 63%;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-left: 283px;
+    margin-bottom: 30px;
+}
+.mi{
+    height: 240px;
+    background-image: url(img/Rectangle\ 1234.png);
+    background-size: cover;
+    position: relative;
+    width: 37%;
+}
+.mi > h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+}
+.mi > i{
+    position: absolute;
+    font-size: 20px;
+    color: #F5F5F5;
+    top: 24px;
+    right: 26px;
+}
+.vi_text {
+    width: 60%;
+}
+.vi_text > h1{
+    font-size: 16px;
+    font-weight: 600;
+    color: #475467;
+}
+.pp{
+    width: 100%;
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    position: relative;
+}
+.pp_text{
+    width: 55%;
+    display: flex;
+    gap: 17px;
+    align-items: center;
+} 
+.pp_text > p{
+    display: flex;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #475467;
+}
+.pp_text > p > i{
+    font-size: 16px;
+    color: #45CCFF;
+}
+.vi_text > p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+}
+.buto{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bu-1{
+    width: 132px;
+    height: 30px;
+    border: 1px solid #D0D5DD;
+    border-radius: 15px;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    color: #344054;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding-left: 15px;
+}
+.bu-1 > i{
+    font-size: 18px;
+    color: #344054;
+}
+.bu-2{
+    width: 154px;
+    height: 44px;
+    background-color: #45CCFF;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.dollar{
+    display: flex;
+    width: 45%;
+    background-color: #F1F1F1;
+    padding: 32px 30px;
+    gap: 14px;
+    position: absolute;
+    right: 0;
+    border-radius: 4px;
+}
+.dollar > h1{
+    font-size: 34px;
+    font-weight: 600;
+    color: #101828;
+}
+.p22 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #101828;
+}
+.p23{
+    font-size: 14px;
+    font-weight: 400;
+    color: #828282;
+}
+.mi-2{
+    width: 37%;
+    height: 25vh;
+    background-image: url(img/Rectangle\ 1234\ \(1\).png);
+    background-size: cover;
+    position: relative;
+}
+.mi-2 > div{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+.mi-2 > h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+}
+.mi-2 > div > i{
+    font-size: 20px;
+    color: #F5F5F5;
+}
+.mi-2 > div > p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.mi-2 > div > p > i{
+    font-size: 25px;
+}
+.dollar-2{
+    display: flex;
+    width: 45%;
+    background-color: #F1F1F1;
+    padding: 32px 30px;
+    gap: 14px;
+    position: absolute;
+    right: 0;
+    border-radius: 4px;
+}
+.sec-2{
+    width: 100%;
+    height: 70vh;
+    background-image: url(img/Rectangle\ 1219.png);
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0px;
+}
+.h1{
+    margin-bottom: 30px ;
+    font-size: 38px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.texts {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.texts > div{
+    position: relative;
+}
+.texts > div > .i1{
+    position: absolute;
+    left: 110px;
+    top: 20px;
+}
+.texts > div > .i2{
+    position: absolute;
+    left: 120px;
+    top: 20px;
+}
+.texts > div > .i3{
+    position: absolute;
+    left: 120px;
+    top: 20px;
+}
+.texts > div > .i4{
+    position: absolute;
+    left: 120px;
+    top: 20px;
+}
+.texts > div > h1{
+    font-size: 120px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.texts > div > h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.texts > div > p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #D9D9D9;
+}
+.sec-3{
+    width: 100%;
+    height: 40vh;
+    padding: 80px 0px;
+    background-color: #F5F5F5;
+}
+.h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    color: #242935;
+    margin-bottom: 40px;
+}
+.text{
+    display: flex;
+    margin-bottom: 66px;
+    gap: 100px;
+    justify-content: center;
+}
+.text > div{
+    display: flex;
+    gap: 44px;
+}
+.text > div > p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #242935;
+}
+.text > div > i{
+    color: #60CDF6;
+    font-size: 25px;
+}
+.p1{
+    text-align: center;
+    color: #51555E;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sec-3{
+    width: 100%;
+    height: 40vh;
+    padding: 80px 0px;
+    background-color: #F5F5F5;
+}
+.h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    color: #242935;
+    margin-bottom: 40px;
+}
+.text{
+    display: flex;
+    margin-bottom: 66px;
+    gap: 100px;
+    justify-content: center;
+}
+.text > div{
+    display: flex;
+    gap: 44px;
+}
+.text > div > p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #242935;
+}
+.text > div > i{
+    color: #60CDF6;
+    font-size: 25px;
+}
+.p1{
+    text-align: center;
+    color: #51555E;
+    font-size: 14px;
+    font-weight: 400;
+}
+sec-4{
+    width: 100%;
+
+}
+.bg{
+    margin-top: 50px;
+    text-align: center;
+}
+.bg > h1{
+    font-size: 38px;
+    font-weight: 700;
+    color: #242935;
+}
+.bg > img{
+    width: 100%;
+}
+.bg > button{
+    width: 168px;
+    height: 44px;
+    background-color: #45CCFF;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.sec-6{
+    margin-top: 100px;
+    width: 100%;
+    height: 40vh;
+    background-image: url(img/Rectangle\ 1227.png);
+    background-size: cover;
+    padding: 10px 380px;
+}
+.off{
+    display: flex;
+}
+.off_text{
+    margin-top: 53px;
+    margin-left: 120px;
+}
+.off_text > h1{
+    font-size: 24   qpx;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.off > img{
+    width: 50%;
+}
+.off_text > h1 > span{
+    color: #45CCFF;
+}
+.off_text > p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #B8BCC5;
+}
+.off_text > button{
+    width: 236px;
+    height: 44px;
+    background-color: #45CCFF;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.pppp4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #B8BCC5;
+}
+footer{
+    width: 100%;
+    height: 25vh;
+    background-color: #0B0D17;
+}
+.last-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 14vh;
+}
+.ppp{
+    padding-top: 60px;
+}
+.ppp > p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+}
+
+@media(max-width:980px){
+    nav{
+        display: none;
+    }
+    main{
+        width: 100%;
+        background-image: url(img/Rectangle\ 2\ \(2\).jpg);
+    }
+    .kurs > div{
+        margin-top: 200px;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+    }
+    .kurs > div > button{
+        margin-top: 194px;
+    }
+.work{
+    flex-direction: column;
+}
+.yt{
+    flex-direction: column-reverse;  
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sec-2{
+    height: 1500px;
+}
+.texts{
+    flex-direction: column;
+    text-align: center;
+}
+.i1{
+    display: none;
+}
+.i2{
+    display: none;
+}
+.i3{
+    display: none;
+}
+.i4{
+    display: none;
+}
+.vi_kurs{
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.mi{
+    width: 100%;
+}
+.mi-2{
+    width: 100%;
+}
+.vi_text{
+    width: 100%;
+}
+.sec-6{
+    padding: 0px 0px;
+}
+.diz{
+    flex-direction: column-reverse;
+    gap: 30px;
+}
+.last-logo > i{
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.head > i{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+}
